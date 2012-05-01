@@ -1,0 +1,1 @@
+https://github.com/angular/angular-seed 7cd74c04d3b6cfff31425b47345a0958045eb75f
