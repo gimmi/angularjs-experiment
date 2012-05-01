@@ -28,5 +28,10 @@ describe('myApp controllers', function() {
 		it('should initialize controller', function() {
 			expect(target).not.toBeUndefined();
 		});
+
+		it('sould initialize itms collection', function () {
+			expect(scope.items).toBeDefined();
+			expect(scope.items.length).toEqual(3);
+		});
 	});
 });
