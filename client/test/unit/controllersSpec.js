@@ -4,12 +4,12 @@ describe('myApp controllers', function() {
 
 	beforeEach(module('myApp.controllers'));
 
-	describe('MyCtrl1', function() {
+	describe('main', function() {
 		var target, scope;
 
 		beforeEach(inject(function($rootScope, $controller) {
 			scope = $rootScope.$new();
-			target = $controller('MyCtrl1', { $scope: scope });
+			target = $controller('main', { $scope: scope });
 		}));
 
 		it('should initialize controller', function() {
@@ -17,12 +17,12 @@ describe('myApp controllers', function() {
 		});
 	});
 
-	describe('MyCtrl2', function() {
+	describe('items', function() {
 		var target, scope;
 
 		beforeEach(inject(function($rootScope, $controller) {
 			scope = $rootScope.$new();
-			target = $controller('MyCtrl2', { $scope: scope });
+			target = $controller('items', { $scope: scope });
 		}));
 
 		it('should initialize controller', function() {

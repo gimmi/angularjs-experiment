@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('myApp.controllers', []).controller('MyCtrl1', ['$scope', function(scope) {
+angular.module('myApp.controllers', []).controller('main', ['$scope', function(scope) {
 	// TODO
-}]).controller('MyCtrl2', ['$scope', function(scope) {
+}]).controller('items', ['$scope', function(scope) {
 	// TODO
 }]);
